@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sleep": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "siege": "^0.2.0"
   }
 }
